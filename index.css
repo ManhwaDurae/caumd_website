@@ -1,0 +1,70 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  overflow-x: hidden;
+  font-family: 'Nanum Gothic';
+}
+section#title {
+  background: linear-gradient(#00000080, rgba(0, 0, 0, 0.7)), url('img/2.png');
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+section#title .title {
+  color: white;
+  text-align: right;
+  position: absolute;
+  bottom: 90px;
+  right: 120px;
+  padding-left: 120px;
+}
+@media screen and (max-width: 768px) {
+  section#title .title {
+    bottom: 60px;
+    right: 40px;
+    padding-left: 40px;
+  }
+}
+section#title .title h1 {
+  font-size: 40px;
+  padding-bottom: 12px;
+  font-family: "Spoqa Han Sans Neo", sans-serif;
+}
+section#title .title p {
+  font-size: 16px;
+  line-height: 24px;
+  word-break: keep-all;
+}
+.line {
+  display: inline-block;
+  border-top: 4px solid orangered;
+  width: 80px;
+}
+a {
+  text-decoration: none;
+  color: rgb(200, 200, 200);
+}
+a:hover {
+  color: white;
+}
+button {
+  background: orangered;
+  border: none;
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 14px 24px;
+  text-align: center;
+  border-radius: 20px 20px;
+  cursor: pointer;
+  margin-left: 14px;
+  margin-top: 6px;
+}
+button:hover {
+  background: rgb(255, 60, 0);
+}
